@@ -1,0 +1,99 @@
+.product__details{
+    margin-top: 70px;
+}
+
+.product__details h2{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.product__rating span i {
+    color: coral;
+}
+
+.product__rating p span{
+    color: coral;
+    font-weight: 500;
+}
+
+.product__price{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.tab__wrapper{
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.active__tab{
+    font-weight: 600;
+}
+
+.tab__content p {
+    line-height: 30px;
+}
+
+.review__wrapper ul li span{
+    color: coral;
+    font-weight: 600;
+}
+
+.review__wrapper ul li p{
+    margin-top: 10px;
+}
+
+.review__form{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.review__form h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.form__group input, 
+.form__group textarea{
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 8px 20px ;
+}
+ 
+.form__group input:focus, 
+.form__group textarea:focus{
+    outline: none;
+}
+
+.form__group{
+    margin-bottom: 30px;
+}
+
+.form__group span {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: var(--primary-color);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.related__title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width:768px){
+    .product__details{
+        font-size: 1.3rem;
+    }
+
+    .rating__group{
+        column-gap: 1rem !important ;
+    }
+}

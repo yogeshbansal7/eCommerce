@@ -1,0 +1,86 @@
+.admin__header{
+    width: 100%;
+    padding: 20px 0px;
+    background: var(--primary-color);
+}
+
+.admin__nav-top{
+    width: 100%;
+}
+
+.admin__nav-wrapper-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 3rem;
+}
+
+.admin__nav-top-right img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.admin__nav-top-right{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.search__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    outline: none;
+}
+
+.search__box span i {
+    color: white;
+}
+
+.box{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.admin__nav-top-right span i {
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.admin__nav-wrapper-top .logo h2{
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+
+.admin__menu{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background: var(--card-bg-02);
+}
+
+.admin__navigation{
+    text-align: center;
+}
+
+.admin__menu-list{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    justify-content: center;
+}
+
+.admin__menu-list .admin__menu-item a{
+    color: var(--primary-color);
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.active__admin-menu{
+    background: whitesmoke;
+}
+ 
