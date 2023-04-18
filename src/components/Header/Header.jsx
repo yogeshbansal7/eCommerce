@@ -81,7 +81,7 @@ const Header = () => {
                         <div className="logo">
                             <Link to='/home' className='cmplt__logo' >
                                 <img src={logo} alt="logo" />
-                                <h1>Yogesh Bansal</h1>
+                                <h1>Multimart</h1>
                             </Link>
                         </div>
 
